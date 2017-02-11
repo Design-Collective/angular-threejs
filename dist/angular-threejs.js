@@ -51,7 +51,7 @@
 		var scriptTag = $document[0].createElement('script');
 		scriptTag.type = 'text/javascript';
 		scriptTag.async = true;
-		var online = false;
+		var online = true;
 		if (online) {
 			scriptTag.src = 'https://cdnjs.cloudflare.com/ajax/libs/three.js/r71/three.min.js';
 		} else {
